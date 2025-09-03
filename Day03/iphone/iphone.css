@@ -1,0 +1,114 @@
+section {
+  padding: 50px;
+  background-color: #f7f8fb;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.title > h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+.title > span {
+  color: #0066cc;
+  display: flex;
+}
+.title > span:hover {
+  text-decoration-line: underline;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.product > .phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+picture {
+  transition: all 0.5s;
+}
+
+picture:hover {
+  transform: scale(1.025);
+}
+
+.product > .phone > .colors {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  margin-top: 40px;
+}
+.product > .phone > .colors > .circle {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.brown {
+  background-color: #bfa48f;
+}
+
+.titanium {
+  background-color: #c2bcb2;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.product > .phone > .name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-top: 40px;
+}
+.product > .phone > .sub {
+  color: #1d1d1f;
+  margin-top: 30px;
+}
+
+.product > .phone > .price {
+  color: #1d1d1f;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.product > .phone > .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+}
+.product > .phone > .buttons > .more {
+  border: none;
+  color: white;
+  background-color: #0076df;
+  border-radius: 20px;
+  padding: 11px 21px;
+  font-size: 17px;
+}
+
+.product > .phone > .buttons > .purchase {
+  border: none;
+  padding: 11px 21px;
+  color: #0076df;
+  background-color: transparent;
+  border-radius: 30px;
+  font-size: 17px;
+}

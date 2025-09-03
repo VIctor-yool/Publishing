@@ -1,0 +1,67 @@
+.category {
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coffee {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #dddddd;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.round {
+  width: 5px;
+  height: 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 12px;
+}
+
+.coffee:hover {
+  border: 4px solid orange;
+}
+
+.coffee:hover > picture {
+  transform: scale(1.025);
+}

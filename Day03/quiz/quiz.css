@@ -1,0 +1,65 @@
+.whole {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.phone {
+  width: 15%;
+}
+
+section {
+  padding: 70px;
+  background-color: #f7f8fb;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title > h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+
+.title > span {
+  color: #0066cc;
+  display: flex;
+}
+
+.color {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.color > .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info > .name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.info > .summary {
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+}
