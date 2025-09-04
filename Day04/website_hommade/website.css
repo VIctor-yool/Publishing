@@ -1,0 +1,51 @@
+nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+button {
+  background-color: transparent;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ably {
+  color: red;
+}
+
+button:hover {
+  background-color: rgb(229, 231, 235);
+}
+
+section {
+  width: 100vw;
+  position: relative;
+}
+
+section > video {
+  width: 100%;
+}
+
+.message {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
