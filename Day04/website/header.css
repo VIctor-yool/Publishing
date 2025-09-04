@@ -1,0 +1,36 @@
+header {
+  /* fixed 브라우저 기준으로 계속 고정 */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+nav {
+  background-color: white;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  padding: 30px 0px 30px 0px;
+}
+
+.ably {
+  color: #ff5160;
+}
+
+.menu > button {
+  padding: 15px 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+}
+button:hover {
+  background-color: #d1d1d1;
+}

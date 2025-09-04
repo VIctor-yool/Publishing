@@ -1,0 +1,63 @@
+.car {
+  width: 450px;
+}
+
+.car > h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.photo {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.car > .info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+.car > .info > .option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.car > .info > .option > .title {
+  font-weight: 700;
+}
+.car > .info > .option > .value {
+  font-weight: 700;
+  color: #7f7f7f;
+}
+
+.car > .interactive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.car > .interactive > .make {
+  width: 150px;
+  color: white;
+  background-color: #002c5f;
+  border: none;
+  padding: 10px 40px 10px 40px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.car > .interactive > .navi {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background-color: #007fa8;
+}
+
+.car > .interactive > .navi > .circle {
+  display: flex;
+  flex-direction: row;
+}

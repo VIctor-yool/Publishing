@@ -1,0 +1,39 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+  height: 100vh;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+
+.box1 > .copybox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.name {
+}
+
+.BOX {
+  width: 30%;
+  height: 20%;
+  border: 1px solid #7f7f7f;
+  color: #7f7f7f;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Section:hover > .BOX {
+  opacity: 1;
+}

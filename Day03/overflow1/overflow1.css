@@ -27,7 +27,7 @@
   background-color: black;
   position: absolute;
   top: 0px;
-  left: 0pc;
+  left: 0px;
   transition: all 0.3s;
   transform: translate(0, -40px);
 }

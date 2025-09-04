@@ -1,0 +1,51 @@
+.category {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.coffee {
+  width: 350px;
+  background-color: #f7f7f7;
+  padding: 50px 25px 60px 25px;
+}
+
+picture {
+  margin-bottom: 30px;
+}
+
+picture img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info > .name {
+  font-weight: 500;
+}
+
+.coffee:hover > picture img {
+  transform: scale(1.05);
+}
+
+.beverage > .info {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 03s;
+}

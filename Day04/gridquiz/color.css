@@ -1,0 +1,180 @@
+.box1 {
+  background-color: #ef5777;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box2 {
+  background-color: #575fcf;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box3 {
+  background-color: #4bcffa;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box4 {
+  background-color: #34e7e4;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box5 {
+  background-color: #0be881;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box6 {
+  background-color: #f53b57;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box7 {
+  background-color: #3c40c6;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box8 {
+  background-color: #0fbcf9;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box9 {
+  background-color: #00d8d6;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box10 {
+  background-color: #05c46b;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box11 {
+  background-color: #ffc048;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box12 {
+  background-color: #ffdd59;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box13 {
+  background-color: #ff5e57;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box14 {
+  background-color: #d2dae2;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box15 {
+  background-color: #485460;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box16 {
+  background-color: #ffa801;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box17 {
+  background-color: #ffd32a;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box18 {
+  background-color: #ff3f34;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box19 {
+  background-color: #808e9b;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
+.box20 {
+  background-color: #1e272e;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px;
+}
