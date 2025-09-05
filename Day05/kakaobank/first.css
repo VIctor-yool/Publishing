@@ -1,0 +1,51 @@
+.first {
+  background-image: url(main-bg3.png);
+  height: 100vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+
+  align-items: center;
+  position: relative;
+}
+
+.first > .message {
+  position: absolute;
+  top: 135px;
+  left: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.first > .message > h1 {
+  font-weight: bold;
+  font-size: 49px;
+  margin-bottom: 20px;
+}
+
+.first > .message > span {
+  margin: 8px 0px;
+}
+
+.first > .app {
+  position: absolute;
+  left: 400px;
+}
+
+.first > .app > button {
+  width: 178px;
+  height: 56px;
+  padding: 15px 30px;
+  font-size: 16.2px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+}
+.first > .app > button > i {
+  margin-right: 10px;
+}
